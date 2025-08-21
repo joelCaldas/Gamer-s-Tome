@@ -1,0 +1,360 @@
+
+html{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background: rgba(11, 35, 69, 1);
+    overflow-x: hidden;
+    display: block;
+    flex-direction: column;
+    margin: 0%;
+    font-family: 'inter';
+}
+
+header{
+    display: flex;
+    background: rgba(0, 22, 53, 1);
+    width: 100%;
+    height: 20%;
+    color: #ffff;
+    user-select: none;
+}
+
+header h1{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 8%;
+}
+
+header h2{
+    font-size: 160%;
+}
+
+img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-logo{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.lupa-pesq{
+    width: 4%;
+    height: 40%;
+    background: none;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+.img-lupa{
+    width: 80%;
+    height: 80%;
+}
+
+header a{
+    color: #ffff;
+    text-decoration: none;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+ .login{
+    width: 14%;
+    height: 40%;
+    background: rgba(255, 77, 91, 1);
+    color: rgba(150, 41, 72, 1);
+    border-radius: 20px;
+    border: none;
+    font-size: 160%;
+    font-family: Impact, Arial, Helvetica, sans-serif;
+    margin: 2% 0%;
+ } /* fim do header */
+
+ @media screen and (max-width: 768px) {
+    body{
+        font-size: 80%;
+    }
+
+    header h1{
+        margin-left: 1%;
+        margin: 0%;
+    }
+
+    iframe{
+        width: 40%;
+        height: 20%;
+    }
+
+    .inicial-meio{
+        font-size: 80%;
+    }
+    .inicial-meio h3{
+        margin-left: -10%;
+        margin-top: 20%;
+    }
+
+}   /* fim responsividade */
+
+ .inicial-top{
+    width: 100%;
+    height: 100%;
+    color: #ffff;
+    display: flex;
+    font-weight: bold;
+ }
+
+ .menu{
+    background: rgba(150, 41, 72, 1);
+    height: 8%;
+    width: 18%;
+    font-size: 100%;
+    display: flex;
+    margin-right: 30%;
+    margin-left: 2%;
+ }
+ .linhas-menu{
+    display: block;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 2%;
+    margin-left: 10%;
+   
+ }
+
+ .linhas1{
+    background: #ffff;
+    height: 1%;
+    width: 30%;
+    margin-bottom: 10%;
+ }
+
+ .linhas2{
+    background: #ffff;
+    height: 1%;
+    width: 30%;
+    margin-bottom: 10%;
+ }
+
+ .linhas3{
+    background: #ffff;
+    height: 1%;
+    width: 30%;
+ }
+
+.menu h1{
+    margin-top: 3%;
+    margin-right: 15%;
+}
+
+.carrocel{
+    width: 96%;
+    height: 75%;
+    margin-top: 5%;
+    margin-left: -60%;
+    align-items: center;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.carrocel img{
+    width: 50%;
+    height: 80%;
+    background: #ffff;
+    margin-top: 2%;
+    margin-left: 5%;
+} /* fim da div inicial */
+
+.inicial-meio{
+    width: 100%;
+    height: 1080px;
+    background: #ffff;
+    color: #001635;
+}
+
+.inicial-meio div{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    border: #001635 solid 4px;
+    border-radius: 40px;
+    top: 2%;
+    left: 10%;
+    align-items:flex-start;
+    overflow: hidden;
+}
+
+.inicial-meio div img{
+    width: 13%;
+    height: 20%;
+    margin: 4%;
+    object-fit: cover;
+}
+
+.inicial-meio h1{
+    font-size: 380%;
+    margin-left: 3%;
+    font-family: 'Press Start 2P';
+    margin-top: 10%;
+}
+
+.inicial-meio p{
+    font-size: 220%;
+    width: 50%;
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+.inicial-meio button{
+    width: 20%;
+    height: 8%;
+    position: relative;
+    top: -30%;
+    left: -20%;
+    background: rgba(255, 77, 91, 1);
+    font-size: 160%;
+    font-family: 'Press Start 2P';
+    color: #ffff;
+}
+
+.inicial-meio h3{
+    position: relative;
+    left: 55%;
+    font-size: 380%;
+    font-family: 'Press Start 2P';
+    top: -60%;
+    width: 40%;
+    text-align: center;
+}
+
+.inicial-meio iframe{
+    position: relative;
+    top: -55%;
+    left: 55%;
+} /* fim da div inicial-meio*/
+
+.inicial-baixo{
+    width: 100%;
+    height: 630px;
+    background: #001635;
+    color: #ffff;
+    display: flex;
+}
+
+.inicial-baixo .text{
+    display: block;
+    width: 50%;
+    font-size: 130%;
+    background: none;
+    margin-top: 4%;
+}
+
+.inicial-baixo h1{
+    font-family: 'Press Start 2P';
+}
+
+.inicial-baixo div{
+    width: 40%;
+    height: 40%;
+    background: #FF4D5B;
+    margin: 1%;
+    margin-top: 10%;
+    text-align: center;
+    align-items: center;
+    display: block;
+    font-size: 90%;
+    font-family: 'Press Start 2p';
+}
+
+.inicial-baixo div img{
+    width: 50%;
+    height: 60%;
+    background-size: contain;
+    margin: 10%;
+}
+
+.inicial-baixo button{
+    position: relative;
+    height: 10%;
+    width: 60%;
+    top: 80%;
+    right: 10%;
+    background: #FF4D5B;
+    font-size: 120%;
+    color: #ffff;
+    font-family: 'Press Start 2p';
+
+} /* fim da inicial meio */
+
+.inicial-baixo-fim{
+    height: 450px;
+    width: 100%;
+    background: #000;
+    color: #ffff;
+}
+
+.barra{
+    height: 93px;
+    width: 100%;
+    background: #962948;
+    text-align: center;
+    display: flex;
+    font-size: 120%;
+    align-items: center;
+}
+
+.barra h2{
+    margin-left: 20%;
+}
+
+.desenvolvedores-info{
+    display: block;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    text-align: center;
+}
+
+.desenvolvedores-info .img-comunidades{
+    display: flex;
+    align-items: center;
+}
+
+.img-comunidades img{
+    margin-top: 5%;
+    background-size: contain;
+    margin-bottom: 2%;
+}
+
+.icon-insta{
+    background: #000;
+    width: 10%;
+    height: 20%;
+    margin-left: 39%;
+}
+
+.icon-disc{
+    background: #fff;
+    width: 10%;
+    height: 20%;
+} /* fim da div inicial*/
+
+#Maispopulares{
+    height: 1080px;
+    width: 100%;
+    background: #962948;
+}
+
+#Retro{
+    height: 1080px;
+    width: 100%;
+    background: #fff;
+}

@@ -1,2 +1,2 @@
 # Gamer-s-Tome
-Site para amantes de jogos: no qual deixa boosts
+site para os amantes de jogos: venha e encontre tutoriais, curiosidades e sobre seu jogo, dando level up!
